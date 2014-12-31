@@ -1,18 +1,19 @@
+(function(){
+	$(document).ready(function(){
+		vex.defaultOptions.className = 'vex-theme-plain';
 
-$(document).ready(function(){
-	vex.defaultOptions.className = 'vex-theme-plain';
+		/*vex.dialog.open({
 
-	/*vex.dialog.open({
+			message:"Send an email to Kris",
+			content: "",
+			
+					
+		});*/
 
-		message:"Send an email to Kris",
-		content: "",
-		
-				
-	});*/
+		$('#contact').click(function(){
+			console.log('click');
+			vex.dialog.alert("This is a test");
 
-	$('#contact').click(function(){
-		console.log('click');
-		vex.dialog.alert("This is a test");
-
+		});
 	});
-});
+}).call(this);
