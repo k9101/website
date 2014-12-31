@@ -10,8 +10,8 @@
       } else {
         flag = 1;
       }
-      $('my-header').toggleClass('inactive');
-      $('my-footer').toggleClass('inactive');
+      $('.header').toggleClass('inactive');
+      $('.footer').toggleClass('inactive');
       $('#signal').toggleClass('active');
       if ($(this).text() === "In-Active") {
         $(this).text("Active");
