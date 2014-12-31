@@ -1,15 +1,18 @@
-vex.defaultOptions.className = 'vex-theme-plain';
 
-/*vex.dialog.open({
+$(document).ready(function(){
+	vex.defaultOptions.className = 'vex-theme-plain';
 
-	message:"Send an email to Kris",
-	content: "",
-	
-			
-});*/
+	/*vex.dialog.open({
 
-$('#contact').click(function(){
-	console.log('click');
-	vex.dialog.alert("This is a test");
+		message:"Send an email to Kris",
+		content: "",
+		
+				
+	});*/
 
+	$('#contact').click(function(){
+		console.log('click');
+		vex.dialog.alert("This is a test");
+
+	});
 });
