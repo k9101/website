@@ -10,6 +10,6 @@ vex.defaultOptions.className = 'vex-theme-plain';
 
 $('#contact').click(function(){
 	console.log('click');
-	vex.dialog.alert("This is a test");
+	vex.dialog.alert("Coming Soon!");
 
 });
