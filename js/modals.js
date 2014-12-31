@@ -1,4 +1,3 @@
-
 vex.defaultOptions.className = 'vex-theme-plain';
 
 /*vex.dialog.open({
