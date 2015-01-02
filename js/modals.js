@@ -16,7 +16,8 @@ $('#contact').click(function(){
 $('#hover-button').click(function(){
 		$('.header').toggleClass('inactive');
 		$('.footer').toggleClass('inactive');
-		
+	 	$('#signal').toggleClass('active');
+
 		if($(this).text() == "In-Active"){
 			$(this).text("Active");
 			$('body').css({paddingBottom: '0px'});
