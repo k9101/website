@@ -19,11 +19,11 @@ $('#hover-button').click(function(){
 		
 		if($(this).text() == "In-Active"){
 			$(this).text("Active");
-			$('body').css(paddingBottom: '0px');
+			$('body').css({paddingBottom: '0px'});
 			vex.dialog.alert("Please hover your mouse to the left side of the screen to access the menu!");
 		}else{
 			$(this).text("In-Active");
-			$('body').css(paddingBottom: '75px');
+			$('body').css({paddingBottom: '75px'});
 		}
 			
 });
